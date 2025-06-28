@@ -1,22 +1,45 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
 .gradient-header {
-    background: linear-gradient(135deg, #8e2de2, #ff6ec4);
+  background: linear-gradient(135deg, #8e2de2, #ff6ec4);
 }
-.carousel-wrap {
-  padding: 40px 0;         
-  display: flex;
-  justify-content: center;
-}
-.img {
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
-}
-.sparkle-img {
-  display: block;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  height: 450px;    
-  width: 100%;
-  object-fit: cover;
+
+.custom-bg-box {
+  background-color: #f9f4fc; /* soft background for second about section */
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
   border-radius: 1rem;
+  padding: 2rem;
+  transition: all 0.3s ease-in-out;
 }
 
+.sparkle-img {
+  border: 5px solid #e7d1f7;
+  border-radius: 1rem;
+  box-shadow: 0 8px 20px rgba(138, 43, 226, 0.2);
+  transition: transform 0.3s ease-in-out;
+      }
 
+.sparkle-img:hover {
+  transform: scale(1.03);
+}
+
+.carousel-inner img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.carousel-inner img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.section-heading {
+  font-weight: 600;
+  font-size: 2rem;
+  color: #6c3483;
+}
+.list-box {
+ width: 60%;
+ background-color: #f8f1ff; 
+ box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
