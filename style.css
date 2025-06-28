@@ -39,7 +39,47 @@ body {
   color: #6c3483;
 }
 .list-box {
- width: 60%;
+ width: 70%;
  background-color: #f8f1ff; 
  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
 }
+.list-box:hover {
+  background-color: gray;
+  color: white;
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(138, 43, 226, 0.2);
+  transition: transform 0.3s ease-in-out;
+
+}
+.closing-message-box {
+  background-color: #fdf4ff; /* soft lavender */
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.closing-text {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #4a4a4a;
+  line-height: 1.2;
+}
+
+.say-hello-btn {
+  border-radius: 25px;
+  font-weight: 500;
+  padding: 10px 25px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.say-hello-btn:hover {
+  background-color: #8e2de2;
+  color: white;
+  border-color: #8e2de2;
+}
+
+
+

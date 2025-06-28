@@ -123,12 +123,20 @@
               </div>
             </div>
           </div>
-         <div class="p-4 rounded-4 mt-4 list-box">
+         <div class="container p-4 rounded-4 mt-4 list-box">
   <p class="mb-1"><strong>✨ I’ve built a range of creative projects — and I’m not just coding, I’m sharing the journey!</strong></p>
   <p class="mb-1">🎥 From design time-lapses to tech tips and final results, you can catch all the behind-the-scenes on my social media.</p>
   <p class="mb-0">💻 Follow along to see what I’m building, breaking, fixing, and celebrating.</p>
 </div>
-
+<br>
+<div class="closing-message text-center mt-5">
+  <p class="lead closing-text">
+    Thanks for stopping by! Whether you're here to collaborate, support, or just say hi — I’d love to hear from you.  
+    My inbox (and socials) are always open!  
+    This journey is just getting started — let’s connect! 💌✨🌸
+  </p>
+  <a class="btn btn-outline-dark mt-3 say-hello-btn" href="#">Say Hello💌✨🌸</a>
+</div>
         </section>
       </div>
 
@@ -138,5 +146,12 @@
       </div>
     </div>
   </div>
+  <script>
+    document.querySelector('.say-hello-btn').addEventListener('click', function (e) {
+      e.preventDefault();
+      var contactTab = new bootstrap.Tab(document.querySelector('a[href="#contact"]'));
+      contactTab.show();
+    });
+  </script>
 </body>
 </html>
