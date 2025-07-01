@@ -6,7 +6,7 @@ body {
 }
 
 .custom-bg-box {
-  background-color: #f9f4fc; /* soft background for second about section */
+  background-color: #f9f4fc;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
   border-radius: 1rem;
   padding: 2rem;
@@ -18,7 +18,7 @@ body {
   border-radius: 1rem;
   box-shadow: 0 8px 20px rgba(138, 43, 226, 0.2);
   transition: transform 0.3s ease-in-out;
-      }
+}
 
 .sparkle-img:hover {
   transform: scale(1.03);
@@ -52,7 +52,7 @@ body {
 
 }
 .closing-message-box {
-  background-color: #fdf4ff; /* soft lavender */
+  background-color: #fdf4ff;
   padding: 2rem;
   border-radius: 1rem;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
@@ -80,6 +80,21 @@ body {
   color: white;
   border-color: #8e2de2;
 }
+.contact-box {
+  max-width: 100%;
+  background-color: #eef2f7; 
+  border: 1px solid #eaeaea;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+}
+.contact-box a {
+  color: #6a1b9a;
+  text-decoration: none;
+}
+#home {
+  background-color: #f4f0fa;
+}
+
 
 
 
